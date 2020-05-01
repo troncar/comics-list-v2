@@ -1,0 +1,109 @@
+
+
+.comic {
+    border-radius: 5px;
+    background-color: #222831;
+    box-shadow: 0 0 8px #00adb5;
+    font-size: 14px;
+    border: solid 3px  #00adb5;
+    color: #eeeeee;
+    cursor: pointer;
+    display: flex;
+    flex-basis: auto;
+    height: 400px;
+    margin-top: 30px;
+    overflow: hidden;
+    padding: 10px;
+
+    &:hover{
+        box-shadow: 0 0 15px  #00adb5;
+    }
+    @media only screen and (max-width: 768px) {
+        max-width: 300px
+    } 
+
+    @media only screen and (min-width: 992px) {
+        max-width: 320px
+    } 
+
+    //BEM ELEMENTS
+
+    &__date {
+        background-color: transparent;
+        box-shadow: 0 0 5px #9ecaed;
+        height: 30px;
+        width: 119px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px #2B9593;
+        border-radius: 5px;
+    
+    }
+
+    &__publisher{
+        font-size: 10px;;
+        font-style: normal;
+        font-weight: 700;
+        margin: 5px 0;
+
+    }
+
+    &__creators{
+        font-size: 12px;;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    &__description{
+        height: 80px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+    }
+
+    &__more{
+        align-content: center;
+        align-items: center;
+        border-radius: 2px;
+        border: 2px solid #808B96;
+        bottom: 0;
+        color: #F3E8DC;
+        display: flex;;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        height: 30px;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all;
+        width: 90px;
+
+        &:hover{
+            color:#2C3E50;
+            box-shadow: 0 0 8px #008571 ;
+            border: 2px solid #008571  ;
+        }
+    }
+
+
+    &__container {
+        width: 100%;
+        position: relative;
+        padding: 5px;
+        
+    }
+
+    // Tags
+
+    h5 {
+        margin: 10px 0 ;
+    }
+}
