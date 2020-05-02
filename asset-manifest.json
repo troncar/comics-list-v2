@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/comics-list-v2/static/css/main.f8eb9309.chunk.css",
+    "main.js": "/comics-list-v2/static/js/main.b5aaed12.chunk.js",
+    "main.js.map": "/comics-list-v2/static/js/main.b5aaed12.chunk.js.map",
+    "runtime-main.js": "/comics-list-v2/static/js/runtime-main.64a03a85.js",
+    "runtime-main.js.map": "/comics-list-v2/static/js/runtime-main.64a03a85.js.map",
+    "static/js/2.2c489a40.chunk.js": "/comics-list-v2/static/js/2.2c489a40.chunk.js",
+    "static/js/2.2c489a40.chunk.js.map": "/comics-list-v2/static/js/2.2c489a40.chunk.js.map",
+    "index.html": "/comics-list-v2/index.html",
+    "precache-manifest.904bf8fa316f51beec1f7593c700f32c.js": "/comics-list-v2/precache-manifest.904bf8fa316f51beec1f7593c700f32c.js",
+    "service-worker.js": "/comics-list-v2/service-worker.js",
+    "static/css/main.f8eb9309.chunk.css.map": "/comics-list-v2/static/css/main.f8eb9309.chunk.css.map",
+    "static/js/2.2c489a40.chunk.js.LICENSE.txt": "/comics-list-v2/static/js/2.2c489a40.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64a03a85.js",
+    "static/js/2.2c489a40.chunk.js",
+    "static/css/main.f8eb9309.chunk.css",
+    "static/js/main.b5aaed12.chunk.js"
+  ]
+}
